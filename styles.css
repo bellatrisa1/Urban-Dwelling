@@ -270,3 +270,110 @@ body {
 .payment-icons img {
   width: 40px;
 }
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .top-header .top_container {
+    padding-right: 40px;
+  }
+
+  .nav {
+    gap: 10px;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .header-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .user-info {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .top-header__nav {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .top-header .top_container {
+    padding-right: 10px;
+  }
+
+  .header-bottom h1 {
+    font-size: 20px;
+  }
+
+  .logo_group {
+    width: 40px;
+    height: 40px;
+  }
+
+  .button_cart {
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .search-btn {
+    width: 35px;
+    height: 35px;
+  }
+
+  .icon-search {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer-column h3 {
+    font-size: 14px;
+  }
+
+  .footer-column ul li a,
+  .footer-column a {
+    font-size: 13px;
+  }
+
+  .footer__logo2 {
+    width: 100px;
+    height: auto;
+  }
+}
